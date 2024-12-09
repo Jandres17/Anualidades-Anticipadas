@@ -7,7 +7,7 @@ En este repositorio se ilustran las fórmulas de anualidades anticipadas para la
 
 Con el siguiente código, puede usted cargar las funciones que se emplean para realizar los cálculos correspondientes del interés simple.
 ```
-source("https://raw.githubusercontent.com/Jandres17/Anualidades-Vencidas/refs/heads/main/FormulasAnualidadesVencidas.R")
+source("https://raw.githubusercontent.com/Jandres17/Anualidades-Anticipadas/refs/heads/main/FormulasAnualidadesAnticipadas.R")
 ```
 
 A continuación se ilustrarán algunos ejemplos de las fórmulas correspondientes.

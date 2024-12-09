@@ -14,6 +14,10 @@ A continuación se ilustrarán algunos ejemplos de las fórmulas correspondiente
 
 ## 1. Cálculo de Valor Futuro conociendo la anualidad, tasa de interés del periodo y el número (plazo) de anualidades.
 
+$$
+VF = A \cdot \frac{(1 + r)^t - 1}{r} \cdot (1 + r)
+$$
+
 Un inversionista realiza un pago mensual de $1,200 al final de cada mes durante 5 años en una anualidad anticipada que paga una tasa de interés del 6% anual, compuesta mensualmente. ¿Cuál es el valor futuro de esta inversión?
 Los datos son los siguientes:
 A = $1,200.00
@@ -68,6 +72,10 @@ r = TasaPeriodoVF(VF=150000, A=1500, Tper=84)
 ```
 
 ## 5. Cálculo de Valor Actual conociendo la anualidad, tasa de interés del periodo y el número (plazo) de anualidades.
+
+$$
+VA = A \cdot \frac{1 - (1 + r)^{-t}}{r} \cdot (1 + r)
+$$
 
 Suponga que una persona pide prestado para una nueva tableta para utilizarla en la escuela y desea pagarlos en 48 pagos quincenales de $66.41. Para esto la tienda departamental decide cobrarle una tasa de interés del 12% anualizada ¿A cuánto asciende el valor de la tableta adeudado?
 Se tienen los siguientes datos:
